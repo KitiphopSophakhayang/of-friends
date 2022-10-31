@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html long="en">
+    <meta charset="UTF-8"> 
+    <link rel="stylesheet" href="style.css">
+<head>
+    <title>สมัคสมาชิก</title>
+    <style>
+        form{
+            background-color: deepskyblue;
+            border: 2px solid blue;
+            margin-left: 30%;
+            margin-right: 30%;
+            font-size: 25px;
+            padding: 20px;
+           
+        }
+        
+    </style>
+</head>
+    <body >
+        <h1 align="center">สมัคสมาชิก</h1>
+        <form align="center">
+            <div>
+                <label for="firstname">เลขประจำตัวประชาชน</label>
+                <input type="text"  name="fname" placeholder="กรอกเลขประจำตัวประชาชน" required>
+            </div>
+            <div>
+                <label for="lastname">ชื่อ</label>
+                <input type="text" name="lname" placeholder="ชื่อของคุณ">
+
+                <label for="lastname">นามสกุล</label>
+                <input type="text" name="lname" placeholder="นามสกุลของคุณ">
+            </div>
+            <div>
+                <label for="">เพศ</label>
+                <input type="radio" name="gender">เพศชาย 
+                <input type="radio" name="gender">เพศหญิง
+            </div>
+            <div>
+                <label for="อายุ">อายุ</label>
+                <input type="text" name="age" placeholder="อายุ" min="0" max="100">
+            </div>
+            <div>
+                <label for="ที่อยู่">ที่อยู่</label>
+                <input type="text" name="Address" placeholder="ที่อยู่">
+            </div>
+            <div>
+                <label for="จังหวัด">จังหวัด</label>
+                <input type="text" name="Address" placeholder="จังหวัด">
+            </div>
+            <div>
+                <label for="รหัสไปรษณีย์">รหัสไปรษณีย์</label>
+                <input type="text" name="Address" placeholder="รหัสไปรษณีย์">
+            </div>
+            <div>
+                <label for="เบอร์โทรศัพท์">เบอร์โทรศัพท์</label>
+                <input type="text" name="Address" placeholder="เบอร์โทรศัพท์">
+            </div>
+            <div>
+                <label for="email">อีเมล</label>
+                <input type="email" name="email" placeholder="อีเมล" required>
+            </div>
+            <div>
+                <label for="password">รหัสผ่าน</label>
+                <input type="password" name="password" placeholder="รหัสผ่าน" required>
+            </div>
+          
+            <div>
+                <label for="วันเกิด">วันเกิด</label>
+                <input type="date" name="date" placeholder="bridthdat">
+            </div>
+      
+            <div>
+                <input type="submit" value="สมัคสมาชิก" > 
+            </div>
+        </form>
+
+        <a href="home.html" >กลับหน้าแรก</a>
+    </body>
+</html>

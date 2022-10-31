@@ -1,0 +1,93 @@
+html,body{
+    background-color: mediumturquoise;
+    padding: 5px;
+    margin: 5px;
+}
+
+.top-footer{
+    background-color: purple;
+}
+
+.menu-item{
+    color: white;
+    padding: 15px;
+    display: inline-block;
+    text-emphasis: none;
+}
+
+.login-user{
+    color: white;
+    padding: 15px;
+    display: inline-block;
+    text-emphasis: none;
+    margin-left: 80%;
+}
+
+.screen{
+    background-color: skyblue;
+    padding: 25px;
+    margin: 30px;
+}
+.image{
+    width: 100%;
+    height: 800%;
+}
+
+.register{
+    padding: 30px;
+    margin: 150px;
+
+}
+.menu-job{
+    color: blue;
+    padding: 10px;
+    display: inline-block;
+    text-emphasis: none;
+}
+.logiut-user{
+    color: white;
+    display: inline-block;
+    text-emphasis: none;
+    margin-left: 60%;
+}
+.imag-job{
+   
+    width: 100%;
+}
+.button{
+    color: purple;
+    background-color: hotpink;
+    display: inline-block;
+    width: 5%;
+    text-align: center;
+    padding: 5px;
+    text-emphasis: none;
+}
+.information{
+    margin-left: 15%;
+}
+
+.bottom-footer{
+    background-color: white;
+    padding: 15px;
+
+}
+.welcome{
+    text-align: center;
+    display: block;
+    border: solid 0px seagreen;
+    background-color: paleturquoise;
+    color: navy;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 2%;
+    margin: 8%;
+    margin-left: 20%;
+    margin-right: 20% ;    
+}
+.show{
+    background-color: rgb(73, 73, 73);
+    color: aliceblue;
+    text-align: center;
+    padding: 30px;
+    }
